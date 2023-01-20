@@ -1,0 +1,13 @@
+﻿label {
+    color: darkgoldenrod !important;
+    font-weight: 500;
+}
+.good {
+    color: forestgreen !important;
+}
+.ok {
+    color: darkgoldenrod !important;
+}
+.bad {
+    color: red !important;
+}

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dalyn Baldwin</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/my.css" rel="stylesheet" />
+    <link href="img/smile.jpg" rel="icon" />
+</head>
+<body>
+    <div class="text-center">
+        <!-- about me -->
+        <h1>Hi, I'm Dalyn</h1>
+        <br /><br />
+        <img src="img/dalynbaseball.JPEG" height="200" title="Me Playing Baseball" />
+        <br /><br /><br />
+    </div>
+    <div>
+        <!-- What I want to learn this semester-->
+        <h3>What I want to get out of this class</h3>
+        <p>
+            This semester I hope to learn more about how to use C# and ASP.NET to write scalable, dynamic programs.
+            I haven't done a lot with C#, but I have read some of the documentation, done CodeAcademy for it, and even read a For Dummies book.
+            So far, I love it, and I'm excited to learn more about its capabilities and to grow towards achieving my career goals.
+        </p>
+        <br />
+        <!-- 3 job interests-->
+        <h3>Top 3 job interests</h3>
+        <ol>
+            <li>Healthcare Administration and/or Tech Development</li>
+            <li>Security Consulting/Forensics/White hat hacking</li>
+            <li>Teaching</li>
+        </ol>
+    </div>
+    <div>
+        <!-- form for calculating the grade -->
+        <h3>Grade Calculator</h3>
+        <p>Input your grade for each main grading category in IS413. Please use whole/large decimal numbers (100% = 100 or 90.5% = 90.5)</p>
+        <form name="grade_calculator">
+            <!-- Original header (and form output message) -->
+            <!-- this tag will change colors based on the user inputs -->
+            <p id="grade" style="font-weight: bold">Raw Grade: unknown</p>
+            <label for="assignments">Assignments</label>
+            <input type="number" id="assignments" />
+            <br /><br />
+            <label for="group_projects">Group Projects</label>
+            <input type="number" id="group_projects" />
+            <br /><br />
+            <label for="quizzes">Quizzes</label>
+            <input type="number" id="quizzes" />
+            <br /><br />
+            <label for="midterm">Midterm</label>
+            <input type="number" id="midterm" />
+            <br /><br />
+            <label for="final">Final</label>
+            <input type="number" id="final" />
+            <br /><br />
+            <label for="intex">INTEX</label>
+            <input type="number" id="intex" />
+            <br /><br />
+            <label for="ec">Extra Credit</label>
+            <input type="number" id="ec" />
+            <br /><br />
+            <button type="button" onclick="CalcGrade();">calculate</button>
+        </form>
+        <br /><br />
+    </div>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/site.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
